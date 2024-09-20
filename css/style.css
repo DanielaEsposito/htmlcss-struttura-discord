@@ -18,10 +18,6 @@
   background-color: yellow;
 }
 
-.container {
-  padding: 10px 10px;
-}
-
 /*header*/
 .page-header {
   margin: auto;
@@ -31,19 +27,39 @@
   max-width: 60%;
   max-width: 1000px;
   margin: 0px auto;
+  padding: 10px;
 }
-
 .page-header > .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0%;
+  height: 50px;
 }
-
+.logo {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  text-align: center;
+}
 .link-items {
   display: inline-block;
 }
 .login {
-  display: inline-block;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }
 /*main*/
 section {
