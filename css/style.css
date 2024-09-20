@@ -47,9 +47,16 @@
 }
 /*main*/
 
+
 .page-section > .container{
     display: flex;
     padding: 10px 0px;
+    margin: auto;
+}
+.first-column{
+    width: 60%;
+    height: 40vh;
+    background-color: rosybrown;
     margin: auto;
 }
 .column{
@@ -63,4 +70,10 @@
 .sm{
     background-color: red;
     width: 40%;
+}
+.last-column{
+    width: 80%;
+    height: 40vh;
+    background-color: aqua;
+    margin: auto;
 }
