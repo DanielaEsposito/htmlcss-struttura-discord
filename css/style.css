@@ -28,13 +28,14 @@
   padding: 10px;
 }
 .container {
-  max-width: 70vw;
+  max-width: 60vw;
   margin: auto;
 }
 
 .page-header > .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 ul,
@@ -44,3 +45,5 @@ ul,
 .login {
   display: inline-block;
 }
+/*main*/
+
