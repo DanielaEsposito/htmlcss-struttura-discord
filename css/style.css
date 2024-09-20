@@ -46,13 +46,21 @@
   display: inline-block;
 }
 /*main*/
+section{padding: 40px;}
 
+section:nth-child(odd){
+    background-color: cornflowerblue;
+}
+section:nth-child(even){
+    background-color: rgb(14, 48, 110);
+}
 
 .page-section > .container{
     display: flex;
     padding: 10px 0px;
     margin: auto;
 }
+
 .first-column{
     width: 60%;
     height: 40vh;
@@ -77,3 +85,4 @@
     background-color: aqua;
     margin: auto;
 }
+/*footer*/
