@@ -28,8 +28,9 @@
   padding: 10px;
 }
 .container {
-  max-width: 60vw;
-  margin: auto;
+  max-width: 60%;
+  max-width: 1000px;
+  margin:0px auto;
 }
 
 .page-header > .container {
@@ -38,7 +39,6 @@
   align-items: center;
 }
 
-ul,
 .link-items {
   display: inline-block;
 }
@@ -47,3 +47,20 @@ ul,
 }
 /*main*/
 
+.page-section > .container{
+    display: flex;
+    padding: 10px 0px;
+    margin: auto;
+}
+.column{
+    width: 80%;
+    height: 40vh
+}
+.lg{
+    background-color: blue;
+    width: 60%;
+}
+.sm{
+    background-color: red;
+    width: 40%;
+}
