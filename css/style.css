@@ -1,6 +1,46 @@
 /*reset*/
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* debug*/
+.debug {
+  background-color: red;
+  border: 1px solid black;
+  padding: 5px;
+}
+.debug .debug {
+  background-color: orange;
+}
+.debug .debug .debug {
+  background-color: yellow;
+}
+
+.container {
+  padding: 10px 10px;
+}
+
+/*header*/
+.page-header {
+  margin: auto;
+  padding: 10px;
+}
+.container {
+  max-width: 70vw;
+  margin: auto;
+}
+
+.page-header > .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul,
+.link-items {
+  display: inline-block;
+}
+.login {
+  display: inline-block;
 }
