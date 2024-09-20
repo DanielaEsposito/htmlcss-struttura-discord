@@ -87,6 +87,7 @@ section:nth-child(even) {
   background-color: rgb(7, 68, 68);
   margin: auto;
 }
+
 /*footer*/
 .page-section.section-footer {
   background-color: rgb(86, 97, 97);
